@@ -38,49 +38,49 @@ module.exports = {
             {
                 source: '/api/loginGetNonce',
                 destination:
-                    'https://atf-dev.backendboyz.repl.co/api/loginGetNonce',
+                    'https://uat.alltokenfootball.com/api/loginGetNonce',
             },
             {
                 source: '/api/loginWallet',
                 destination:
-                    'https://atf-dev.backendboyz.repl.co/api/loginWallet',
+                    'https://uat.alltokenfootball.com/api/loginWallet',
             },
             {
                 source: '/api/nft',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/nft',
+                destination: 'https://uat.alltokenfootball.com/api/nft',
             },
             {
                 source: '/api/nft',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/nfts',
+                destination: 'https://uat.alltokenfootball.com/api/nfts',
             },
             {
                 source: '/api/pinJSON',
                 destination:
-                    'https://atf-dev.backendboyz.repl.co/api/pinJSON',
+                    'https://uat.alltokenfootball.com/api/pinJSON',
             },
             {
                 source: '/api/event',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/event',
+                destination: 'https://uat.alltokenfootball.com/api/event',
             },
             {
                 source: '/api/events',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/events',
+                destination: 'https://uat.alltokenfootball.com/api/events',
             },
             {
                 source: '/api/apparel',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/apparel',
+                destination: 'https://uat.alltokenfootball.com/api/apparel',
             },
             {
                 source: '/api/apparels',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/apparels',
+                destination: 'https://uat.alltokenfootball.com/api/apparels',
             },
             {
                 source: '/api/avatar',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/avatar',
+                destination: 'https://uat.alltokenfootball.com/api/avatar',
             },
             {
                 source: '/api/avatars',
-                destination: 'https://atf-dev.backendboyz.repl.co/api/avatars',
+                destination: 'https://uat.alltokenfootball.com/api/avatars',
             },
         ]
     },
