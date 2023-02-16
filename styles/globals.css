@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+h1 {
+  @apply text-5xl sm:text-6xl md:text-7xl xl:text-8xl font-medium py-3;
+}
+
+h2 {
+  @apply text-4xl sm:text-6xl xl:text-7xl font-medium py-3;
+}
+
+h3 {
+  @apply text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-medium;
+}
+
+h6 {
+  @apply text-3xl xs:text-4xl sm:text-5xl lg:text-6xl py-2;
+}
+
+
+.members-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+}
+
+.text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-blue-400 to-blue-500;
+}
+.reverse-text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-pink-500 to-pink-500;
+}
+
+.no-scroll-bar {
+  /* hide scrollbar but allow scrolling */
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.nav-item {
+  @apply transition duration-200 ease-linear hover:text-blue-400 min-w-max;
+}
+
+.social-media-icon {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl text-gray-300 transform hover:scale-110 transition duration-200 ease-linear;
+}
+
+.button {
+  @apply text-center rounded-full px-4 sm:px-6 pb-1.5 pt-2 sm:pb-2 sm:pt-2.5 bg-gray-400 bg-opacity-10 transform hover:scale-105 transition duration-300 ease-in-out hover:shadow-button sm:hover:shadow-color border border-white border-opacity-20 hover:border-opacity-70 cursor-pointer;
+}
+
+.space-img {
+  --animate-duration: 5s;
+}
+
+#chart .apexcharts-tooltip {
+  @apply border-none shadow-none bg-transparent font-medium
+}
+
+#chart .arrow_box {
+  @apply text-xl flex flex-col p-2 rounded bg-grey-darkest
+}
+
+#chart .arrow_box .header {
+  @apply font-normal text-base text-gray-400
+}
+
+.loader {
+  animation: rotation 1.5s infinite linear;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotatey(360deg);
+  }
+}
